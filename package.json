@@ -1,0 +1,32 @@
+{
+  "name": "jwtbasics",
+  "version": "1.0.0",
+  "description": "Jwt Basics",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanselberkant/JwtBasics.git"
+  },
+  "author": "tanselberkant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanselberkant/JwtBasics/issues"
+  },
+  "homepage": "https://github.com/tanselberkant/JwtBasics#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.1"
+  }
+}
